@@ -1,0 +1,297 @@
+
+## log.txt
+
+2024-06-09 18:38:18,476 Script started.
+2024-06-09 18:38:21,348 Script started.
+2024-06-09 18:39:02,702 Script started.
+2024-06-09 18:39:04,735 Response data: {'id': 'gen-rcZJda4YS3OCvhUUex5dlyEigcuv', 'model': 'meta-llama/llama-3-70b-instruct', 'object': 'chat.completion', 'created': 1717958343, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '**Hello! 🌟 Welcome to our amazing community! 😊**'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 32, 'completion_tokens': 16, 'total_tokens': 48}}
+2024-06-09 18:39:04,736 Script ended.
+2024-06-09 18:39:12,376 Script started.
+2024-06-09 18:39:12,378 User input: what is an elephant
+2024-06-09 18:39:12,379 Payload for LLM: {'model': 'openai/gpt-3.5-turbo-instruct', 'messages': [{'role': 'assistant', 'content': '**Hello! 🌟 Welcome to our amazing community! 😊**'}, {'role': 'user', 'content': 'what is an elephant'}, {'role': 'system', 'content': 'You can use Markdown and emojis 😊.'}], 'temperature': 0.9, 'stream': True}
+2024-06-09 18:39:14,387 Stream completed.
+2024-06-09 18:39:14,388 Final response: An elephant is a very large animal that has a long, flexible nose called a trunk, ivory tusks, and thick gray skin. They live in African and Asian countries. Did you know that they are the largest land animals in the world? 🌍🐘
+2024-06-09 18:39:17,277 Follow-up questions response data: {'id': 'gen-iIUhafTku9NK6sFvOE6ZXCwwYX1e', 'model': 'meta-llama/llama-3-70b-instruct', 'object': 'chat.completion', 'created': 1717958354, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '{"q1": "What do elephants eat? 🍴", "q2": "How big can elephants get? 🤯", "q3": "Are elephants smart? 🤓", "q4": "Can elephants be pets? 🐾"}'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 176, 'completion_tokens': 57, 'total_tokens': 233}}
+2024-06-09 18:39:17,279 Script ended.
+2024-06-09 18:40:32,820 Script started.
+2024-06-09 18:40:32,843 Script started.
+2024-06-09 18:40:32,844 Follow-up button clicked. Generating response.
+2024-06-09 18:40:32,845 Payload for LLM: {'model': 'openai/gpt-3.5-turbo-instruct', 'messages': [{'role': 'assistant', 'content': '**Hello! 🌟 Welcome to our amazing community! 😊**'}, {'role': 'user', 'content': 'what is an elephant'}, {'role': 'assistant', 'content': 'An elephant is a very large animal that has a long, flexible nose called a trunk, ivory tusks, and thick gray skin. They live in African and Asian countries. Did you know that they are the largest land animals in the world? 🌍🐘'}, {'role': 'user', 'content': 'How big can elephants get? 🤯'}, {'role': 'system', 'content': 'You can use Markdown and emojis 😊.'}], 'temperature': 0.9, 'stream': True}
+2024-06-09 18:40:34,077 Stream completed.
+2024-06-09 18:40:34,077 Final response: An elephant can grow up to 13 feet tall and weigh up to 15,000 pounds! 🐘🌟
+2024-06-09 18:40:36,252 Follow-up questions response data: {'id': 'gen-taj8yxk4kIUV1vNmmKQgjrhuNcrf', 'model': 'meta-llama/llama-3-70b-instruct', 'object': 'chat.completion', 'created': 1717958434, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '{"q1": "How long do elephants live? 🐘", "q2": "What do elephants eat? 🍃", "q3": "Are elephants smart? 🤓", "q4": "Can elephants swim? 🏊\u200d♀️"}'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 221, 'completion_tokens': 59, 'total_tokens': 280}}
+2024-06-09 18:40:36,255 Script ended.
+2024-06-09 18:40:38,583 Script started.
+2024-06-09 18:40:38,609 Script started.
+2024-06-09 18:40:38,611 Follow-up button clicked. Generating response.
+2024-06-09 18:40:38,612 Payload for LLM: {'model': 'openai/gpt-3.5-turbo-instruct', 'messages': [{'role': 'assistant', 'content': '**Hello! 🌟 Welcome to our amazing community! 😊**'}, {'role': 'user', 'content': 'what is an elephant'}, {'role': 'assistant', 'content': 'An elephant is a very large animal that has a long, flexible nose called a trunk, ivory tusks, and thick gray skin. They live in African and Asian countries. Did you know that they are the largest land animals in the world? 🌍🐘'}, {'role': 'user', 'content': 'How big can elephants get? 🤯'}, {'role': 'assistant', 'content': 'An elephant can grow up to 13 feet tall and weigh up to 15,000 pounds! 🐘🌟'}, {'role': 'user', 'content': 'Can elephants swim? 🏊\u200d♀️'}, {'role': 'system', 'content': 'You can use Markdown and emojis 😊.'}], 'temperature': 0.9, 'stream': True}
+2024-06-09 18:40:40,275 Stream completed.
+2024-06-09 18:40:40,275 Final response: Yes, elephants are excellent swimmers! They can even use their trunks to breathe like a snorkel when they are in deep water. 🐘🌟
+2024-06-09 18:40:42,093 Follow-up questions response data: {'id': 'gen-HC5VDBoSBMjAdujYSTDtk1pPuvjQ', 'model': 'meta-llama/llama-3-70b-instruct', 'object': 'chat.completion', 'created': 1717958440, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '{"q1": "How do elephants use their trunks to breathe underwater? 🐘💧", "q2": "Can elephants dive to great depths? 🌊", "q3": "Are elephants natural swimmers or do they learn how to swim? 🐘🏊\u200d♀️", "q4": "Do elephants swim alone or in groups? 🐘👫"}'}, 'finish_reason': 'stop'}], 'system_fingerprint': '601a0519fb4d41a706042f153a1732dce93cd158a93180a364be77ef4864bd39', 'usage': {'prompt_tokens': 276, 'completion_tokens': 86, 'total_tokens': 362}}
+2024-06-09 18:40:42,095 Script ended.
+2024-06-09 18:40:46,577 Script started.
+2024-06-09 18:40:46,603 Script started.
+2024-06-09 18:40:46,606 Follow-up button clicked. Generating response.
+2024-06-09 18:40:46,606 Payload for LLM: {'model': 'openai/gpt-3.5-turbo-instruct', 'messages': [{'role': 'assistant', 'content': '**Hello! 🌟 Welcome to our amazing community! 😊**'}, {'role': 'user', 'content': 'what is an elephant'}, {'role': 'assistant', 'content': 'An elephant is a very large animal that has a long, flexible nose called a trunk, ivory tusks, and thick gray skin. They live in African and Asian countries. Did you know that they are the largest land animals in the world? 🌍🐘'}, {'role': 'user', 'content': 'How big can elephants get? 🤯'}, {'role': 'assistant', 'content': 'An elephant can grow up to 13 feet tall and weigh up to 15,000 pounds! 🐘🌟'}, {'role': 'user', 'content': 'Can elephants swim? 🏊\u200d♀️'}, {'role': 'assistant', 'content': 'Yes, elephants are excellent swimmers! They can even use their trunks to breathe like a snorkel when they are in deep water. 🐘🌟'}, {'role': 'user', 'content': 'How do elephants use their trunks to breathe underwater? 🐘💧'}, {'role': 'system', 'content': 'You can use Markdown and emojis 😊.'}], 'temperature': 0.9, 'stream': True}
+2024-06-09 18:40:48,402 Stream completed.
+2024-06-09 18:40:48,403 Final response: Elephants have a special ability to store air in their trunks, allowing them to hold their breath for long periods of time. When they submerge themselves in water, they use their trunks as a snorkel, taking in air from the surface and releasing it when needed. 🐘💧
+2024-06-09 18:40:50,566 Follow-up questions response data: {'id': 'gen-f1SokxGeAIExVKIsso9BBexoeQyQ', 'model': 'meta-llama/llama-3-70b-instruct', 'object': 'chat.completion', 'created': 1717958448, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '{"q1": "How long can elephants hold their breath underwater? 🐘💧", "q2": "Can elephants drink water with their trunks? 🐘💧", "q3": "Do elephants have any natural predators in the water? 🐘🐊", "q4": "How do elephant babies learn to swim? 🐘🐋"}'}, 'finish_reason': 'stop'}], 'system_fingerprint': '601a0519fb4d41a706042f153a1732dce93cd158a93180a364be77ef4864bd39', 'usage': {'prompt_tokens': 363, 'completion_tokens': 82, 'total_tokens': 445}}
+2024-06-09 18:40:50,569 Script ended.
+2024-06-09 18:41:02,409 Script started.
+2024-06-09 18:41:02,413 User input: is it bigger than a mouse
+2024-06-09 18:41:02,413 Payload for LLM: {'model': 'openai/gpt-3.5-turbo-instruct', 'messages': [{'role': 'assistant', 'content': '**Hello! 🌟 Welcome to our amazing community! 😊**'}, {'role': 'user', 'content': 'what is an elephant'}, {'role': 'assistant', 'content': 'An elephant is a very large animal that has a long, flexible nose called a trunk, ivory tusks, and thick gray skin. They live in African and Asian countries. Did you know that they are the largest land animals in the world? 🌍🐘'}, {'role': 'user', 'content': 'How big can elephants get? 🤯'}, {'role': 'assistant', 'content': 'An elephant can grow up to 13 feet tall and weigh up to 15,000 pounds! 🐘🌟'}, {'role': 'user', 'content': 'Can elephants swim? 🏊\u200d♀️'}, {'role': 'assistant', 'content': 'Yes, elephants are excellent swimmers! They can even use their trunks to breathe like a snorkel when they are in deep water. 🐘🌟'}, {'role': 'user', 'content': 'How do elephants use their trunks to breathe underwater? 🐘💧'}, {'role': 'assistant', 'content': 'Elephants have a special ability to store air in their trunks, allowing them to hold their breath for long periods of time. When they submerge themselves in water, they use their trunks as a snorkel, taking in air from the surface and releasing it when needed. 🐘💧'}, {'role': 'user', 'content': 'is it bigger than a mouse'}, {'role': 'system', 'content': 'You can use Markdown and emojis 😊.'}], 'temperature': 0.9, 'stream': True}
+2024-06-09 18:41:04,411 Stream completed.
+2024-06-09 18:41:04,412 Final response: Yes, elephants are definitely bigger than a mouse! 🐘🐭
+2024-06-09 18:41:14,295 Follow-up questions response data: {'id': 'gen-fCrIcbblCbKkoTFExTXoQstugirX', 'model': 'meta-llama/llama-3-70b-instruct', 'object': 'chat.completion', 'created': 1717958465, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '{"q1": "What is the average lifespan of an elephant? 🐘", "q2": "Do elephants live in family groups? 👪", "q3": "How do elephants communicate with each other? 💬", "q4": "Are elephants considered an endangered species? 🌟"}'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 394, 'completion_tokens': 65, 'total_tokens': 459}}
+2024-06-09 18:41:14,298 Script ended.
+2024-06-09 18:41:18,674 Script started.
+2024-06-09 18:41:18,700 Script started.
+2024-06-09 18:41:18,702 Follow-up button clicked. Generating response.
+2024-06-09 18:41:18,703 Payload for LLM: {'model': 'openai/gpt-3.5-turbo-instruct', 'messages': [{'role': 'assistant', 'content': '**Hello! 🌟 Welcome to our amazing community! 😊**'}, {'role': 'user', 'content': 'what is an elephant'}, {'role': 'assistant', 'content': 'An elephant is a very large animal that has a long, flexible nose called a trunk, ivory tusks, and thick gray skin. They live in African and Asian countries. Did you know that they are the largest land animals in the world? 🌍🐘'}, {'role': 'user', 'content': 'How big can elephants get? 🤯'}, {'role': 'assistant', 'content': 'An elephant can grow up to 13 feet tall and weigh up to 15,000 pounds! 🐘🌟'}, {'role': 'user', 'content': 'Can elephants swim? 🏊\u200d♀️'}, {'role': 'assistant', 'content': 'Yes, elephants are excellent swimmers! They can even use their trunks to breathe like a snorkel when they are in deep water. 🐘🌟'}, {'role': 'user', 'content': 'How do elephants use their trunks to breathe underwater? 🐘💧'}, {'role': 'assistant', 'content': 'Elephants have a special ability to store air in their trunks, allowing them to hold their breath for long periods of time. When they submerge themselves in water, they use their trunks as a snorkel, taking in air from the surface and releasing it when needed. 🐘💧'}, {'role': 'user', 'content': 'is it bigger than a mouse'}, {'role': 'assistant', 'content': 'Yes, elephants are definitely bigger than a mouse! 🐘🐭'}, {'role': 'user', 'content': 'Are elephants considered an endangered species? 🌟'}, {'role': 'system', 'content': 'You can use Markdown and emojis 😊.'}], 'temperature': 0.9, 'stream': True}
+2024-06-09 18:41:20,277 Stream completed.
+2024-06-09 18:41:20,278 Final response: Yes, unfortunately, certain species of elephants are considered endangered due to habitat loss, human-elephant conflicts, and poaching for their ivory tusks. It is important to protect these amazing animals and their habitats. 🐘🌍 Let's all do our part to conserve and protect our planet's diverse wildlife! 🌟
+2024-06-09 18:41:22,845 Follow-up questions response data: {'id': 'gen-WQhzxPUhZIzLKokmdhjxwXVnIYtm', 'model': 'meta-llama/llama-3-70b-instruct', 'object': 'chat.completion', 'created': 1717958480, 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': '{"q1": "What are the main threats to elephant populations? 🌳", "q2": "How can we help protect elephants and their habitats? 🌟", "q3": "Are there any conservation efforts in place to save endangered elephant species? 🐘", "q4": "What can I do in my daily life to make a positive impact on elephant conservation? 🌈"}'}, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 482, 'completion_tokens': 86, 'total_tokens': 568}}
+2024-06-09 18:41:22,847 Script ended.
+
+## chatbot.py
+
+import streamlit as st
+import openai
+import requests
+import json
+import logging
+import os
+
+# Constants for model selection and temperature
+MODEL = "meta-llama/llama-3-70b-instruct"
+FOLLOWUPMODEL = "openai/gpt-3.5-turbo-instruct"
+TEMPERATURE = 0.9
+MAX_TOKENS = 4096  # Maximum number of tokens for the conversation history
+TOKEN_MARGIN = 512  # Margin to ensure we don't exceed token limit with the model response
+
+# Ensure the log file is created in the current directory
+log_file_path = os.path.join(os.getcwd(), "log.txt")
+
+# Initialize logging
+logging.basicConfig(
+    filename=log_file_path,
+    level=logging.INFO,
+    format="%(asctime)s %(message)s",
+    filemode='a'  # Append to the log file each run
+)
+
+# Log the start of the script
+logging.info("Script started.")
+
+# Load OpenRouter API key from secrets
+api_key = st.secrets["openrouter"]["api_key"]
+
+# Set the OpenAI API key
+openai.api_key = api_key
+
+# Define OpenRouter API endpoint and headers
+OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
+HEADERS = {
+    "Authorization": f"Bearer {api_key}",
+    "HTTP-Referer": "ai4christians.com",  # Optional
+    "X-Title": "chatbot prototype",  # Optional
+    "Content-Type": "application/json"
+}
+
+def log_and_return_response(response):
+    response.raise_for_status()
+    response_data = response.json()
+    logging.info(f"Response data: {response_data}")
+    if response_data and "choices" in response_data and response_data["choices"]:
+        return response_data["choices"][0]["message"]["content"]
+    else:
+        logging.error("No valid response received.")
+        return "Hello! How can I help you today? 😊"
+
+def make_request(payload, stream=False):
+    try:
+        response = requests.post(OPENROUTER_API_URL, headers=HEADERS, data=json.dumps(payload), stream=stream)
+        return response
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Error making request: {e}")
+        return None
+
+def generate_initial_message():
+    initial_payload = {
+        "model": MODEL,
+        "messages": [{"role": "system", "content": "Generate a welcome message for the user in ten words or less. You can use Markdown and emojis 😊."}],
+        "temperature": TEMPERATURE,
+        "stream": False
+    }
+    response = make_request(initial_payload)
+    if response:
+        return log_and_return_response(response)
+    return "Hello! How can I help you today? 😊"
+
+def generate_follow_up_questions(messages):
+    truncated_messages = truncate_messages(messages)
+    payload = {
+        "model": MODEL,
+        "messages": truncated_messages + [{"role": "system", "content": "Generate up to four follow-up questions based on the conversation from the tense that a user may want to ask next. You can use Markdown and emojis 😊. Return the questions in the following JSON format: {\"q1\": \"Question 1\", \"q2\": \"Question 2\", \"q3\": \"Question 3\", \"q4\": \"Question 4\"}"}],
+        "temperature": TEMPERATURE,
+        "stream": False
+    }
+    response = make_request(payload)
+    if response:
+        response_data = response.json()
+        logging.info(f"Follow-up questions response data: {response_data}")
+        if response_data and "choices" in response_data and response_data["choices"]:
+            try:
+                content = response_data["choices"][0]["message"]["content"]
+                content = content.strip()
+                if content.startswith("{") and content.endswith("}"):
+                    questions_data = json.loads(content)
+                    questions = [q for q in questions_data.values() if q.strip()]
+                    if questions:  # Only return questions if there are valid ones
+                        return questions
+            except (json.JSONDecodeError, KeyError) as e:
+                logging.error(f"Error parsing follow-up questions: {e}")
+    return []  # Return an empty list if there are no valid suggestions
+
+def process_llm_response(messages):
+    truncated_messages = truncate_messages(messages)
+    payload = {
+        "model": FOLLOWUPMODEL,
+        "messages": truncated_messages + [{"role": "system", "content": "You can use Markdown and emojis 😊."}],
+        "temperature": TEMPERATURE,
+        "stream": True
+    }
+    logging.info(f"Payload for LLM: {payload}")
+
+    response = make_request(payload, stream=True)
+    full_response = ""
+    if response:
+        try:
+            for line in response.iter_lines():
+                if line:
+                    decoded_line = line.decode("utf-8")
+                    logging.debug(f"Received line: {decoded_line}")
+                    if decoded_line == "data: [DONE]":
+                        logging.info("Stream completed.")
+                        break
+                    if decoded_line.startswith("data: "):
+                        try:
+                            data = json.loads(decoded_line[len("data: "):])
+                            if "choices" in data and data["choices"]:
+                                choice = data["choices"][0]
+                                if "delta" in choice and "content" in choice["delta"]:
+                                    full_response += choice["delta"]["content"]
+                                    st.session_state.response_container.markdown(full_response)
+                        except json.JSONDecodeError as e:
+                            logging.error(f"JSON decoding error: {e}")
+                            logging.error(f"Failed to decode line: {decoded_line}")
+                            logging.error(f"Raw response content: {decoded_line}")
+        except requests.exceptions.RequestException as e:
+            error_message = f"An error occurred: {e}"
+            st.error(error_message)
+            full_response = "An error occurred while processing your request."
+            logging.error(error_message)
+
+    logging.info(f"Final response: {full_response}")
+    st.session_state.messages.append({"role": "assistant", "content": full_response})
+
+    # Generate follow-up questions AFTER the response
+    follow_up_questions = generate_follow_up_questions(st.session_state.messages)
+    st.session_state.suggestions = follow_up_questions
+
+def truncate_messages(messages):
+    """Truncate the messages to fit within the MAX_TOKENS limit."""
+    total_tokens = 0
+    truncated_messages = []
+
+    for message in reversed(messages):
+        message_tokens = len(message['content'].split())  # Simple token estimation, for better accuracy use a tokenizer
+        if total_tokens + message_tokens + TOKEN_MARGIN <= MAX_TOKENS:
+            truncated_messages.insert(0, message)
+            total_tokens += message_tokens
+        else:
+            break
+
+    return truncated_messages
+
+# Streamlit app
+st.title("Streamlit Chatbot with OpenRouter and OpenAI")
+
+# Initialize session state for message history and follow-up suggestions
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+if "suggestions" not in st.session_state:
+    st.session_state.suggestions = []
+if "response_container" not in st.session_state:
+    st.session_state.response_container = None
+if "follow_up_clicked" not in st.session_state:
+    st.session_state.follow_up_clicked = False
+
+# Check for a session start and display the welcome message
+if "init" not in st.session_state:
+    st.session_state["init"] = True
+    welcome_message = generate_initial_message()
+    st.session_state.messages.append({"role": "assistant", "content": welcome_message})
+
+# Display chat history
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+
+# Process follow-up suggestions as buttons
+if not st.session_state.follow_up_clicked and st.session_state.suggestions:
+    st.write("You might want to ask:")
+    cols = st.columns(len(st.session_state.suggestions))
+    for i, suggestion in enumerate(st.session_state.suggestions):
+        if cols[i].button(suggestion):
+            st.session_state.messages.append({"role": "user", "content": suggestion})
+            st.session_state.follow_up_clicked = True  # Set flag to hide buttons
+            st.session_state.suggestions = []  # Clear suggestions immediately
+            st.experimental_rerun()  # Refresh the UI to hide buttons
+
+# Handle follow-up button click
+if st.session_state.follow_up_clicked:
+    logging.info("Follow-up button clicked. Generating response.")
+    with st.chat_message("assistant"):
+        st.session_state.response_container = st.empty()
+    process_llm_response(st.session_state.messages)
+    st.session_state.follow_up_clicked = False  # Reset flag after processing
+
+# User input
+if user_input := st.chat_input("Type your message here..."):
+    # Add user's message to the session state
+    st.session_state.messages.append({"role": "user", "content": user_input})
+    logging.info(f"User input: {user_input}")
+
+    with st.chat_message("user"):
+        st.markdown(user_input)
+
+    with st.chat_message("assistant"):
+        st.session_state.response_container = st.empty()
+    process_llm_response(st.session_state.messages)
+
+# Display follow-up suggestions
+if st.session_state.suggestions:
+    st.write("You might want to ask:")
+    cols = st.columns(len(st.session_state.suggestions))
+    for i, suggestion in enumerate(st.session_state.suggestions):
+        if cols[i].button(suggestion):
+            st.session_state.messages.append({"role": "user", "content": suggestion})
+            st.session_state.suggestions = []  # Clear suggestions after use
+            st.experimental_rerun()  # Refresh the UI to remove buttons
+
+logging.info("Script ended.")
+
+## C2Pinclude.txt
+
+You are Tom, the worlds greatest software engineer.
+
+This is my website chat program built with streamlit and being developed in vscode IDE
+It has multi-user chatting with a LLM
+
+If recommending changes to a file then please give the full file contents and not just the changes, there is no need to also describe the changes unless there is a problem I need to be aware of. 
+
+Only give me the full files if you are proposing changes to them
+-----
+
+
