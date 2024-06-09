@@ -86,15 +86,26 @@ def generate_follow_up_questions(messages):
         if response_data and "choices" in response_data and response_data["choices"]:
             try:
                 content = response_data["choices"][0]["message"]["content"]
-                content = content.strip()
-                if content.startswith("{") and content.endswith("}"):
-                    questions_data = json.loads(content)
+                # Check for Markdown code block, otherwise parse directly
+                if "```json" in content:
+                    json_string = content.split("```json")[1].split("```")[0].strip()
+                else:
+                    json_string = content.strip()
+                
+                if json_string:
+                    questions_data = json.loads(json_string)
                     questions = [q for q in questions_data.values() if q.strip()]
                     if questions:  # Only return questions if there are valid ones
                         return questions
-            except (json.JSONDecodeError, KeyError) as e:
+                else:
+                    logging.error("JSON string extracted is empty or not valid")
+            except json.JSONDecodeError as e:
                 logging.error(f"Error parsing follow-up questions: {e}")
+            except Exception as e:
+                logging.error(f"Unexpected error occurred: {e}")
     return []  # Return an empty list if there are no valid suggestions
+
+
 
 def process_llm_response(messages):
     truncated_messages = truncate_messages(messages)
