@@ -6,8 +6,8 @@ import logging
 import os
 
 # Constants for model selection and temperature
-MODEL = "meta-llama/llama-3-70b-instruct"
-FOLLOWUPMODEL = "openai/gpt-3.5-turbo-instruct"
+MODEL = "openai/gpt-4o"
+FOLLOWUPMODEL = "openai/gpt-4o"
 TEMPERATURE = 0.9
 MAX_TOKENS = 4096  # Maximum number of tokens for the conversation history
 TOKEN_MARGIN = 512  # Margin to ensure we don't exceed token limit with the model response
