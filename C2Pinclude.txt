@@ -8,3 +8,4 @@ If recommending changes to a file then please give the full file contents and no
 Only give me the full files if you are proposing changes to them
 -----
 
+When I click on the suggested answers buttons they are not hidden but are just greyed a little

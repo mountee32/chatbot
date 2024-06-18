@@ -105,8 +105,6 @@ def generate_follow_up_questions(messages):
                 logging.error(f"Unexpected error occurred: {e}")
     return []  # Return an empty list if there are no valid suggestions
 
-
-
 def process_llm_response(messages):
     truncated_messages = truncate_messages(messages)
     payload = {
@@ -232,6 +230,6 @@ if st.session_state.suggestions:
         if cols[i].button(suggestion):
             st.session_state.messages.append({"role": "user", "content": suggestion})
             st.session_state.suggestions = []  # Clear suggestions after use
-            st.experimental_rerun()  # Refresh the UI to remove buttons
+            st.experimental_rerun()  # Refresh the UI to hide buttons
 
 logging.info("Script ended.")
